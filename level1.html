@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>2D Game</title>
+    <link rel="icon" href="Image/Idle (1).png">
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body onload="idleMove(); createboxes();" onkeypress="keycheck(event);" class="body">
+
+    <div class="background" id="background">
+        <img src="Image/Idle (1).png" class="i1">
+        <div class="image">
+            <div class="score" id="score"></div>
+        </div>
+        <div class="l1">
+            <h3>Level 01</h3>
+        </div>
+        <img src="Image/Idle (1).png" class="boy" id="boy" >
+
+    </div>
+
+    <div class="maindiv">
+        <div class="end" id="end">
+            <img src="Image/Idle (2).png" alt="Gril" class="gril"/>           
+            <div class="d1">Game Over</div>
+            <div class="d2">Your Score</div>
+            <div class="d3" Id="endscore">0</div>
+            <button onclick="reload();" class="btn"> Try Again</button>
+            <div class="d4"></div>
+        </div>
+    </div>
+
+    <div class="maindiv2">
+        <div class="nextlevel" id="nextlevel">
+            <div class="dd">congratulations</div>
+            <div class="d11">Level 01 Completed</div>
+            <div class="d22">Your score</div>
+            <div class="d33" id="CurrentScore">0</div>
+            <button class="btn1"><a href="level2.html">Next Level</a></button>
+            <div class="d44"></div>
+        </div>
+
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>

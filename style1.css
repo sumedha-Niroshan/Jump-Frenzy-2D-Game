@@ -1,0 +1,414 @@
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Image/bg1.png");
+    background-size: contain;
+    overflow-x: hidden;
+    position: absolute;
+    background-repeat: repeat-x;
+}
+
+.background1{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Image/bg2.jpg");
+    background-size: contain;
+    overflow-x: hidden;
+    position: absolute;
+    background-repeat: repeat-x;
+}
+.background2{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Image/bg3.jpg");
+    background-size: contain;
+    overflow-x: hidden;
+    position: absolute;
+    background-repeat: repeat-x;
+}
+
+.l1 {
+    margin-top: 10px;
+    background-color: rgb(13, 1, 1);
+    width: 160px;
+    height: 90px;
+    font-weight:bold;
+    margin-left: 1300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    padding-left: 29px;
+    border-radius: 10px;
+    position: absolute;
+    opacity: .6;
+}
+.body{
+    margin: 0;
+}
+
+.boy{
+    position: absolute;
+    height: 250px;
+    margin-top: 365px;
+}
+
+
+.i1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    font-size: 50px;
+    margin-right: 40px;
+    margin-top: 10px;
+    font-family: "Arial";
+    color: red;
+    font-weight: 1000;
+    z-index: 1;
+}
+
+.score{
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: arial;
+    margin-left: 65PX;
+    margin-top: 35px; 
+    z-index: 2;
+}
+
+
+
+
+.box {
+    position: absolute;
+    width: 35px;
+    height: 100px;
+    background-image: url("Image/flame.gif");
+    margin-top: 520px;
+    background-size: 50px 100%;
+   /* bottom: 0; */
+}
+
+.box2 {
+    position: absolute;
+    width: 45px;
+    height: 100px;
+    background-image: url("Image/flame.gif");
+    margin-top: 565px;
+    background-size: 50px 100%;
+
+}
+.fire2{
+    position: absolute;
+    width: 45px;
+    height: 100px;
+    background-image: url("Image/flame.gif");
+    margin-top: 420px;
+    background-size: 50px 100%;
+
+}
+.box3{
+    position: absolute;
+    width: 35px;
+    height: 100px;
+    background-image: url("Image/flame.gif");
+    margin-top: 535px;
+    background-size: 50px 100%;
+}
+.box4{
+    position: absolute;
+    width: 40px;
+    height: 100px;
+    background-image: url("Image/flame.gif");
+    margin-top: 500px;
+    background-size: 50px 100%;
+}
+.box5{
+    position: absolute;
+    width: 40px;
+    height: 100px;
+    background-image: url("Image/flame.gif");
+    margin-top: 500px;
+    background-size: 50px 100%;
+}
+.maindiv {
+    width: 100%;
+    height: 98vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.end{
+    width: 600px;
+    height: 60vh;
+    position: absolute;
+    background-color:black; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: .85;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    font-family: "Arial";
+    visibility: hidden;
+    padding: 10px;
+}
+/*.d{
+    flex-grow: 1;
+}*/
+.d1{
+    animation: blinker 100ms linear infinite;
+    flex-grow: 1;
+    color: rgb(252, 6, 6);
+    font-size: 70px;
+    padding-top: 20px;
+}
+.d2{
+    flex-grow: 1;
+    font-size: 40px;
+}
+.d3{
+    flex-grow: 1;
+    font-size: 70px;
+}
+
+.btn{
+    flex-grow: 1;
+
+
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(6, 244, 77, 0.419);
+    border-color: rgb(234, 234, 241);
+    box-sizing:border-box ;
+
+    border-radius: 15px;
+    border-width: 3px;
+
+}
+.btn:hover{
+    opacity: 2;
+    transform: scale(1.5) rotate(360deg);
+    transition-duration: 1s;
+    cursor: pointer;
+    background-color: rgba(35, 154, 65, 0.468);
+}
+.gril {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    padding-top:100px;
+    padding-right: 400px ;
+    flex-grow: 1;
+}
+
+.d4{
+    flex-grow: 1;
+}
+/*next level*/
+
+.maindiv2{
+    width: 100%;
+    height: 98vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+
+}
+.nextlevel{
+    width: 600px;
+    height: 60vh;
+    position: absolute;
+    background-color:black ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: .85;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    font-family: "Arial";
+    visibility: hidden;
+}
+.dd{
+    flex-grow: 1;
+    font-size: 60px;
+    padding-top: 20px;
+    color: aqua;
+    animation: blinker 100ms linear infinite;
+}
+
+.d11{
+    
+    flex-grow: 1;
+    font-size: 40px;
+    color: rgb(244, 25, 25);
+}
+.d22{
+    flex-grow: 1;
+    font-size: 30px;
+}
+.d33{
+    flex-grow: 1;
+    font-size: 60px;
+}
+.btn1 a {
+    text-decoration: none;
+}
+.btn1{
+    flex-grow: 1;
+
+
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(6, 244, 77, 0.419);
+    border-color: rgb(234, 234, 241);
+    box-sizing:border-box ;
+
+    border-radius: 15px;
+    border-width: 3px;
+
+}
+.btn1:hover{
+    opacity: 2;
+    transform: scale(1.5) rotate(360deg);
+    transition-duration: 1s;
+    cursor: pointer;
+    background-color: rgba(35, 154, 65, 0.468);
+}
+.d44{
+    flex-grow: 1;
+}
+/*next level*/
+
+.maindiv3{
+    width: 100%;
+    height: 98vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+.nextlevel3{
+    width: 600px;
+    height: 60vh;
+    position: absolute;
+    background-image: radial-gradient(green,blue,green,blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 15px 15px rgb(86, 13,13);
+    opacity: .85;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 100px;
+    color: white;
+    font-family: "Arial";
+    visibility: hidden;
+}
+.ddd{
+    flex-grow: 1;
+
+}
+.d111{
+    flex-grow: 1;
+    color: rgb(25, 248, 62);
+    animation: blinker 100ms linear infinite;
+}
+.d222{
+    flex-grow: 1;
+    color: rgb(248, 248, 25);
+    font-weight: bold;
+}
+.d333{
+    flex-grow: 1;
+    color: rgb(251, 11, 11);
+   font-weight: bold;
+}
+.btn2 a {
+    text-decoration: none;
+}
+.btn2{
+    flex-grow: 1;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(15, 229, 72);
+    border-color: red;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border-width: 5px;
+    opacity: 2;
+}
+.btn2:hover{
+opacity: 2;
+transform: scale(2) rotate(360deg);
+transition-duration: 1s;
+cursor: pointer;
+background-color:rgb(248, 248, 25);
+}
+.d444{
+    flex-grow: 1;
+}
+.fire{
+    position: absolute;
+    width: 35px;
+    height: 100px;
+    background-image: url();
+    margin-top: 535px;
+    background-size: 50px 100%;
+}
+.won{
+    width: 600px;
+    height: 60vh;
+    position: absolute;
+    background-image: radial-gradient( rgb 237, 253, 14,);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 15px 15px rgb(86, 13,13);
+    opacity: .85;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 100px;
+    color: white;
+    font-family: "Arial";
+    visibility: hidden;
+}
+/*--------------------*/
+.btnmenu{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 650px;
+    border-color: antiquewhite;
+    background-color: black;
+    opacity: .8;
+    border-radius: 15px;
+}
+.bt {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.bt:hover{
+    color: red;
+}
+@keyframes blinker{
+    50%{
+        opacity: 0;
+    }
+}
+
+
+
+

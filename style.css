@@ -1,0 +1,545 @@
+.body {
+    background-color: #fc3153;
+    text-align: center;
+  }
+  
+h1 {
+    font-size: 144pt;
+    font-family: 'Luckiest Guy';
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow:   0px -6px 0 #212121,  
+                   0px -6px 0 #212121,
+                   0px  6px 0 #212121,
+                   0px  6px 0 #212121,
+                  -6px  0px 0 #212121,  
+                   6px  0px 0 #212121,
+                  -6px  0px 0 #212121,
+                   6px  0px 0 #212121,
+                  -6px -6px 0 #212121,  
+                   6px -6px 0 #212121,
+                  -6px  6px 0 #212121,
+                   6px  6px 0 #212121,
+                  -6px  18px 0 #212121,
+                   0px  18px 0 #212121,
+                   6px  18px 0 #212121,
+                   0 19px 1px rgba(0,0,0,.1),
+                   0 0 6px rgba(0,0,0,.1),
+                   0 6px 3px rgba(0,0,0,.3),
+                   0 12px 6px rgba(0,0,0,.2),
+                   0 18px 18px rgba(0,0,0,.25),
+                   0 24px 24px rgba(0,0,0,.2),
+                   0 36px 36px rgba(0,0,0,.15);
+  }
+
+.tagline{
+    color: rgb(16, 70, 132);
+    text-align: center;
+    font-family: monospace;
+    font-size: 40px;
+
+}
+
+.tagline1{
+    color: rgb(16, 70, 132);
+    text-align: center;
+    font-family: monospace;
+    font-size: 40px;
+    margin-top: 280px;
+
+}
+.tagline2{
+    color: rgb(16, 70, 132);
+    text-align: center;
+    font-family: monospace;
+    font-size: 40px;
+    margin-top: 300px;
+
+}
+img{
+    float: center;
+}
+.marioworId{
+    text-align: center;
+}
+.p1{
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 70px;
+}
+table{
+    width: 100%;
+    border: 1px solid black ;
+}
+td{
+    font-size: 20px;
+    text-align: center;
+    padding: 16px;
+    border: 1px solid white;
+    color: white;
+    font-style: italic;
+    background-color: black;
+}
+th{
+    font-size: 20px;
+    text-align: center;
+    padding: 16px;
+    border: 1px solid white;
+    color: white;
+    font-style: italic;
+    background-color: red;
+}
+footer{
+    background-color: rgb(0, 47, 255);
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 3px;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+.txt{
+    font-size: 20px;
+    text-align: center;
+}
+body{
+    background-color:#e6f3ff ;
+    margin: 0;
+
+}
+.btn1 {
+    width: 340PX;
+    height: 45px;
+    margin-top: 400px;
+    margin-left: 1100px;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+
+}
+.bt{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    animation: blinker 900ms linear infinite;
+}
+.btn1 :hover{
+    animation: none;
+    cursor: pointer;
+    transform: scale(1);
+}
+/* --------------------------- */
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Image/bg.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+    overflow: hidden;
+    position: absolute;
+}
+
+.background1{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Image/bg4.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+    overflow: hidden;
+    position: absolute;
+}
+
+.mainmenu{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url();
+    background-size: contain;
+    overflow-x: hidden;
+    position: absolute;
+    background-repeat: repeat-x;
+    margin-left: 520px ;
+    margin-top: 90px;
+}
+.d1{
+    width: 30%;
+    height: 45vh;
+    background-color: white;
+    opacity: .5;
+    margin-top: 170px;
+    margin-left: 520px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    position: absolute;
+}
+.newgame{
+    flex-grow: 1;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:  monospace;
+    animation: blinker 100ms linear infinite;
+
+}
+.d{
+    flex-grow: .5;
+}
+.play{
+    width: 25%;
+    height: 7.5vh;
+    background-color: #ff0303;
+    opacity: 1;
+    margin-top: 20px;
+    margin-left: 520px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    border-width: 10px;
+    display: flex;
+    opacity: 0.9;
+}
+
+.playlink{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: monospace;
+    font-weight: 600;
+    color: white ;
+    position:absolute;
+}
+
+.play :hover{
+    font-weight: bolder;
+    color: rgb(252, 54, 19);
+}
+.instructions {
+    width: 25%;
+    height: 7.5vh;
+    background-color: #ff0303;
+    margin-top: 90px;
+    margin-left: 520px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    position: absolute;
+    display: flex;
+    opacity: 0.9;
+}
+.help{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: monospace;
+    font-weight: 600;
+    color: white ;
+    position:absolute;
+
+}
+.instructions :hover{
+    font-weight: bolder;
+    color: rgb(252, 54, 19);
+    
+}
+.levels {
+
+
+    width: 25%;
+    height: 7.5vh;
+    background-color: #ff0303;
+    margin-top: 160px;
+    margin-left: 520px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    position: absolute;
+    opacity: 0.9;
+}
+.level {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: monospace;
+    font-weight: 600;
+    color: white ;
+    position:absolute;
+}
+.levels :hover{
+    font-weight: bolder;
+    color: rgb(252, 54, 19);
+    
+}
+.slide {
+    width: 200px;
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 470px;
+}
+.slideR {
+    width: 200px;
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 830px;
+    transform: scaleX(-1);
+}
+.jump{
+    width: 200px;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 490px;
+    transform: scaleX(-1)
+}
+
+.jumpR {
+    width: 200px;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 800px;
+}
+.run{
+    width: 200px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 420px;
+}
+.runR{
+    width: 350px;
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 940px;
+    transform: scaleX(-1);
+}
+.flame{
+    width: 400px;
+    position:absolute ;
+}
+.flameR {
+    width: 190px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 650px;
+    transform: scaleX(-1);
+
+}
+.flameRR {
+    width: 400PX;
+    position: absolute;
+    margin-left: 1100px;
+    transform: scaleX(-1);
+}
+/* ----------------------- */
+.levelbox{
+    width: 100%;
+    height: 50vh;
+    background-color: none;
+    border: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+.l{
+    font-size: 40px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+.l1{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.l2{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.l3{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.l4{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topic {
+    margin-top: 120px;
+    margin-left: 360px;
+    display: flex;
+    
+
+}
+
+.topic1 {
+    font-size: 144pt;
+    font-family: 'Luckiest Guy';
+    color: #ff0303;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow:   0px -6px 0 #212121,  
+                   0px -6px 0 #212121,
+                   0px  6px 0 #212121,
+                   0px  6px 0 #212121,
+                  -6px  0px 0 #212121,  
+                   6px  0px 0 #212121,
+                  -6px  0px 0 #212121,
+                   6px  0px 0 #212121,
+                  -6px -6px 0 #212121,  
+                   6px -6px 0 #212121,
+                  -6px  6px 0 #212121,
+                   6px  6px 0 #212121,
+                  -6px  18px 0 #212121,
+                   0px  18px 0 #212121,
+                   6px  18px 0 #212121,
+                   0 19px 1px rgba(0,0,0,.1),
+                   0 0 6px rgba(0,0,0,.1),
+                   0 6px 3px rgba(0,0,0,.3),
+                   0 12px 6px rgba(0,0,0,.2),
+                   0 18px 18px rgba(0,0,0,.25),
+                   0 24px 24px rgba(0,0,0,.2),
+                   0 36px 36px rgba(0,0,0,.15);
+
+
+    
+}
+
+.girl{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: 210px;
+    margin-left: 10px;
+}
+
+ul {
+    font-size: 25px;
+    font-family: monospace;
+    color: black;
+    font-weight: bold;
+   
+    
+}
+
+.hh1{
+    position: absolute;
+
+    margin-top: 50px ;
+    margin-left: 200px;
+}
+
+.hh2 {
+    position: absolute;
+
+    margin-top: 200px ;
+    margin-left: 200px;
+}
+
+.hh3 {
+    position: absolute;
+
+    margin-top: 330px ;
+    margin-left: 220px;
+}
+
+.rr1{
+    position: absolute;
+
+    margin-top: 70px ;
+    margin-left: 500px;
+    font-family: monospace;
+}
+
+.rr2 {
+    position: absolute;
+
+    margin-top: 200px ;
+    margin-left: 500px;
+    font-family: monospace;
+}
+
+.rr3 {
+    position: absolute;
+
+    margin-top: 360px ;
+    margin-left: 500px;
+    font-family: monospace;
+}
+
+.ss1{
+    position: absolute;
+
+    margin-top: 70px ;
+    margin-left: 800px;
+    font-family: monospace;
+}
+
+.ss2 {
+    position: absolute;
+
+    margin-top: 200px ;
+    margin-left: 800px;
+    font-family: monospace;
+}
+
+.ss3 {
+    position: absolute;
+
+    margin-top: 360px ;
+    margin-left: 800px;
+    font-family: monospace;
+}
+
+h2{
+    font-family: monospace;
+    font-size: 30px;
+
+}
+
+.l111 {
+    width: 100px;
+    height: 100px;
+    margin-left:400px ;
+
+
+}
+
+.l222 {
+    width: 100px;
+    height: 100px;
+    margin-left:400px ;
+
+
+}
+
+.l333 {
+    width: 100px;
+    height: 100px;
+    margin-left:400px ;
+
+
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
